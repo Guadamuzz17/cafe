@@ -1,0 +1,153 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Encabezado */
+.site-header {
+    background-image: url('/img/banner.jpg ');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    font-size: 36px;
+}
+
+.site-header h1 span {
+    color: #e44d26;
+}
+
+.navegacion a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.blog {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.entrada-blog {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Línea gris debajo de cada entrada */
+    padding-bottom: 20px; /* Espacio debajo de la línea */
+}
+
+.entrada-blog h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.imagen img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.contenido-blog {
+    flex: 1;
+}
+
+/* Cursos */
+.cursos {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cursos h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.curso {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Línea gris debajo de cada curso */
+    padding-bottom: 20px; /* Espacio debajo de la línea */
+}
+
+.curso h4 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+
+/* Cursos */
+.cursos {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cursos h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.curso {
+    margin-bottom: 20px;
+}
+
+.curso h4 {
+    margin: 0;
+}
+
+/* Pie de página */
+.site-footer {
+   background-image: url('/img/contacto.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Estilos de botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-primario {
+    background-color: #020202;
+    color: #fff;
+}
+
+.btn-secundario {
+    background-color: #4CAF50; 
+    color: #fff;
+}
+
